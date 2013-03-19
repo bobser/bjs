@@ -1,0 +1,22 @@
+<div class="pagination"> 
+  <ul>
+  <% if(pages > 1) { %>
+    <% if(prev) { class_prev = '' } else {class_prev = 'disabled'} %>
+    <li class="prev <%= class_prev %>"><a href="#"> ← Prev</a></li>
+    
+    <% if(page > 5) { %>
+      <% i_end = Math.min(pages, page+5);i = Math.max(i_end - 10, 0); %>
+    <% } else { %>
+      <% i = 0;i_end = 10; %>
+    <% } %>  
+    <% while (i < i_end && i < pages) {%>
+      <% if (i==page-1) { class_page = 'active' } else {class_page = ''} %>
+      <li class="<%= class_page%>"><a class="page_link" href="#"><%= i + 1 %></a></li>
+      <% i = i + 1; %>
+    <% } %>    
+    <% if(next) { class_next = '' } else {class_next = 'disabled'}%>
+    <li class="next <%= class_next %>"><a href="#">Next → </a></li>
+ 
+<% } %>
+  </ul>
+</div>

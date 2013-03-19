@@ -1,0 +1,12 @@
+<td> 
+<div><a href="<%= apply_link %>" class=job-header><%= title %></a> - <%= location %> </div>
+<div class='less_info'><span class = 'job-date'><%= date_formatted %> - </span><%= job_description.substring(0, 150) + '...' %><a href="#" class='more_link'>more »</a></div>
+<div style='display: none' class='more_info'><span class = 'job-date'><%= date_formatted %> - </span><%= job_description %><a href="#" class='less_link'>« less</a></div>
+</td>
+
+<% if (BJS.currentUser != null) {%>
+
+  <td><a href="#jobs/<%= id %>/edit" class="btn btn-primary">Edit</td>
+  <td><a href="#jobs/<%= id %>/destroy" class="btn btn-danger destroy">Destroy</a></td>
+
+<% } %>

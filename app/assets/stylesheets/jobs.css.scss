@@ -1,0 +1,74 @@
+div.logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.job-date {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.search-results {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+#footer {
+  text-align: center
+}
+
+div.header {
+  margin-top: 20px;
+}
+
+div.sign_in {
+  text-align: left;
+  margin-top: 45px;
+}
+
+a.job-header {
+  font-size: 1.2em
+}
+
+a.active {
+  background-color:#FF704D;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding-left: 5px;
+}
+
+td {
+    padding-left: .4em;
+    padding-right: .4em;
+    padding-bottom: .8em;
+}
+
+.results-controls {
+    border: medium none;
+    margin: 15px 0 0;
+    padding: 0 0 5px;
+}
+
+.results-controls-title {
+    color: #111111;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 4px;
+    text-transform: uppercase;
+}
+
+.results-controls li {
+    line-height: 18px;
+    list-style: none outside none;
+}
+.results-controls a {
+    color: #0385F1;
+    font-size: 12px !important;
+}

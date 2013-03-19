@@ -1,0 +1,18 @@
+<table id="jobs-table">
+  <tr>
+    <th>
+    <% if (BJS.currentUser != null) {%>
+      <a href="#jobs/new" class='btn btn-success'>Post New Job</a>
+    <% } %>
+    </th>
+    <% if (BJS.currentUser != null) {%>
+        <th></th>
+        <th></th>
+        <th></th>
+    <% } %>
+
+  </tr>
+</table>
+
+<br/>
+

@@ -1,0 +1,34 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.form-horizontal .controls {
+    margin-left: 80px;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.navbar .btn, .navbar .btn-group {
+    margin-top: 0px;
+}
+
+.navbar-inner {
+    background-color: #1F3241;
+    background-image: none;
+    color: white;
+    min-height: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}

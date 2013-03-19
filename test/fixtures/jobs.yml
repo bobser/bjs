@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  category_id: 1
+  location_id: 1
+  type_id: 1
+  job_description: MyString
+  job_requirements: MyString
+  employer_id: 1
+
+two:
+  title: MyString
+  category_id: 1
+  location_id: 1
+  type_id: 1
+  job_description: MyString
+  job_requirements: MyString
+  employer_id: 1

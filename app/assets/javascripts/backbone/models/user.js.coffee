@@ -1,0 +1,1 @@
+BJS.Models.User = Backbone.Model.extend({})

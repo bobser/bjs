@@ -1,0 +1,35 @@
+<h1>Edit job</h1>
+
+<form id="edit-job" name="job">
+  <div class="field">
+    <label for="title"> Title</label>
+    <input type="text" name="title" id="title" value="<%= title %>" >
+  </div>
+
+  <div class="field">
+    <label for="category_id"> Category</label>
+    <input type="text" name="category" id="category" value="<%= category %>" >
+  </div>
+
+  <div class="field">
+    <label for="location"> Location</label>
+    <input type="text" name="location" id="location" value="<%= location %>" >
+  </div>
+
+  <div class="field">
+    <label for="job_description"> Job Description</label>
+    <textarea rows="3" type="text" name="job_description" id="job_description"><%= job_description %></textarea>
+  </div>
+
+  <div class="field">
+    <label for="apply_link"> Apply Link</label>
+    <input type="text" name="apply_link" id="apply_link" value="<%= apply_link %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" class="btn btn-primary" value="Update Job" />
+  </div>
+
+</form>
+
+<a href="#jobs/index">Back</a>
