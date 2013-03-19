@@ -1,6 +1,6 @@
 class ChangeJobDescription < ActiveRecord::Migration
   def up
-    change_column :jobs, :job_description, :text
+    change_column :jobs, :job_description, :text, :limit => nil
   end
 
   def down
